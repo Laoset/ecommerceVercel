@@ -15,9 +15,9 @@ export const MainSection = () => {
           <FirstSectionMain />
         </div>
         <div className={styles.containerSecond}>
-          {/* <SecondSectionMain /> */}
-          {/* <ThirdSectionMain /> */}
-          {/*<FourSectionMain /> */}
+          <SecondSectionMain />
+          <ThirdSectionMain />
+          <FourSectionMain />
         </div>
       </div>
     </>
