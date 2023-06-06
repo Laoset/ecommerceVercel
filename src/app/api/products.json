@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "nombre": "ZONE VIBE 100",
+    "image": "https://i.ibb.co/vJKpvhB/vibe100-Rose.webp",
+    "category": "Headphones",
+    "description": "Why settle for boring? Express your unique sense of style with Zone Vibe 100 wireless headphones. Compatible with common video meeting platforms you use everyday.",
+    "details": [
+      "Dimensions",
+      "Height: 183.0mm, Width: 169.7mm, Depth: 73mm, Weight: 185g",
+      "Technical Specifications",
+      "Microphone Type: Dual omni-directional MEMS mics with directional beamforming and DSP, Frequency response (Microphone): 100 ~ 8 KHz, Sensitivity (headphone): 118.0±3 dB at 1mW @1 kHz"
+    ],
+    "inBox": [
+      "Wireless headset",
+      "USB-C charging cable",
+      "Travel bag",
+      "User documentation"
+    ],
+    "price": 30,
+    "new": false
+  },
+  {
+    "id": 2,
+    "nombre": "H390 USB COMPUTER HEADSET",
+    "image": "https://i.ibb.co/kq2NkRj/h390.webp",
+    "category": "Headphones",
+    "description": "Experience clear audio for video meetings, music, and beyond with a simple plug-and-play USB connection and a noise-canceling mic on your Logitech H390 headset.",
+    "details": [
+      "Dimensions",
+      "Height: 171mm, Width: 151mm, Depth: 68mm, Weight: 0.197kg, Cable length: 1.9m",
+      "Technical Specifications",
+      "Microphone Type: Bi-directional, Input Impedance: 32 Ohm, Sensitivity (headphone): 94 dBV/Pa +/- 3 dB, Sensitivity (microphone): -17 dBV/Pa +/- 4 dB, Frequency response (Headset): 20 Hz - 20 kHz, Frequency response (Microphone): 100 Hz - 10 KHz"
+    ],
+    "inBox": ["USB Computer Headset", "User documentation"],
+    "price": 20,
+    "new": false
+  },
+  {
+    "id": 3,
+    "nombre": "XX99 MARK II HEADPHONES",
+    "image": "https://i.ibb.co/1JrKQrW/first-Headphones.jpg",
+    "category": "Headphones",
+    "description": "Experience natural, iflike audio and exceptional build quality made for the passionate music enthusiast",
+    "details": [
+      "Dimensions",
+      "Height: 171mm, Width: 151mm, Depth: 68mm, Weight: 0.197kg, Cable length: 1.9m",
+      "Technical Specifications",
+      "Microphone Type: Bi-directional, Input Impedance: 32 Ohm, Sensitivity (headphone): 94 dBV/Pa +/- 3 dB, Sensitivity (microphone): -17 dBV/Pa +/- 4 dB, Frequency response (Headset): 20 Hz - 20 kHz, Frequency response (Microphone): 100 Hz - 10 KHz"
+    ],
+    "inBox": ["USB Computer Headset", "User documentation"],
+    "price": 40,
+    "new": true
+  },
+
+  {
+    "id": 4,
+    "nombre": "POW DESIGN COLLECTION WIRELESS MOUSE",
+    "image": "https://i.ibb.co/nkwyQ45/powlog.png",
+    "category": "Mouse",
+    "description": "Small, comfortable, efficient and fully wireless mice. The compact size is perfect for small spaces and people with small hands.",
+    "details": [
+      "Dimensions",
+      "Height: 95mm, Width: 55mm, Depth: 38mm, Weight: 84g",
+      "Technical Specifications",
+      "Sensor Technology: Logitech Smooth Optical Tracking, Sensor resolution: 1000 DPI, Number of Buttons: 3, Battery: 12 months, Battery type: 1 AA ,Wireless operating distance: 10 meters"
+    ],
+    "inBox": [
+      "Wireless Mouse",
+      "Nano Unifying Receiver",
+      "1 AA battery (pre-installed)",
+      "User documentation"
+    ],
+    "price": 15,
+    "new": false
+  },
+  {
+    "id": 5,
+    "nombre": "STORM PRO M808-KS",
+    "image": "https://i.ibb.co/wdYC5fD/stormprored.png",
+    "category": "Mouse",
+    "description": "With dual mode connectivity, wireless wireless and Paracord wired connectivity; with a high-capacity battery capacity battery; with a large sensor and large switches, the Storm Pro switches, the Storm Pro M808-KS is the mouse that will take you to discover discover what freedom in gaming is all about.",
+    "details": [
+      "Dimensions",
+      "Height: 12.7cm, Width: 6.6cm, Depth: 4cm, Weight: 96g",
+      "Technical Specifications",
+      "Programmable Buttons: 8, Response Frecuency: 125 Hz/1000 Hz, Wireless Conexion: 2.4GHZ, Wired connection: USB-C removable"
+    ],
+    "inBox": [
+      "Mouse",
+      "Wireless receiver",
+      "USB-C to USB-A cable",
+      "Redragon sticker",
+      "User manual"
+    ],
+    "price": 20,
+    "new": false
+  },
+  {
+    "id": 6,
+    "nombre": "RAZER DEATHADDER V2 X HYPERSPEED",
+    "image": "https://i.ibb.co/hc1nfjB/razer-death2.png",
+    "category": "Mouse",
+    "description": "Trusted by over 15 million fans worldwide, the DeathAdder’s iconic shape has provided wins for countless pros more than any other mouse—including the three-time League of Legends world champ, Faker.",
+    "details": [
+      "Dimensions",
+      "Height: 42.7mm, Width: 72.7mm, Depth: 127.0mm, Weight: 82g",
+      "Technical Specifications",
+      "CONNECTIVITY: Wired - Razer™ Speedflex Cable, RGB LIGHTING: Razer Chroma™ RGB, PROGRAMMABLE BUTTONS: 8, CABLE: Razer™ Speedflex Cable"
+    ],
+    "inBox": ["Stickers", "Manual", "Mouse", "Battery"],
+    "price": 25,
+    "new": false
+  },
+  {
+    "id": 7,
+    "nombre": "K616-RGB FIZZ PRO",
+    "image": "https://i.ibb.co/74v1Rsz/redFizz.png",
+    "category": "Keyboards",
+    "description": "Thanks to its 60% compact design and handy detachable cable, the K616-RGB FIZZ PRO will cable, the K616-RGB FIZZ PRO will allow you to gain more space for your mouse wherever you decide to start your games. decide to start your games. Get ready to be invincible, in your own style.",
+    "details": [
+      "Dimensions",
+      "Height: 29.7cm, Width: 10.6cm, Depth: 3.5cm, Weight: 0.474kg",
+      "Technical Specifications",
+      "Type Keyboard: Mechanical, Distribution: English, Switches: Redragon Red, Size: 60%, Retroilumination: RGB Chroma, Conexion: Cable USB Type-C removable - dongle nano USB 2.4GHz - Bluetooth 5.0"
+    ],
+    "inBox": [
+      "Keyboard",
+      "Keycaps extractor",
+      "Switches extractor",
+      "4 Mechanical switches",
+      "Redragon sticker",
+      "User manual"
+    ],
+    "price": 30,
+    "new": false
+  },
+  {
+    "id": 8,
+    "nombre": "K380 MULTI-DEVICE BLUETOOTH KEYBOARD",
+    "image": "https://i.ibb.co/8ggwjwD/keyboard-Logi.webp",
+    "category": "Keyboards",
+    "description": "Make any space minimalist, modern, and versatile with the K380 Multi-Device—an ultra-thin, design-forward keyboard perfect for typing on your computer, smartphone, tablet, and more. It’s the ideal companion for your everyday multitasking.",
+    "details": [
+      "Dimensions",
+      "Height: 124mm, Width: 279mm, Depth: 16mm, Weight: 423g including batteries",
+      "Technical Specifications",
+      "Connection Type: Bluetooth Classic (3.0), Wireless range: 10 meters, Battery: 2 x AAA "
+    ],
+    "inBox": [
+      "Keyboard",
+      "2 AAA batteries (pre-installed)",
+      "User documentation"
+    ],
+    "price": 35,
+    "new": false
+  },
+  {
+    "id": 9,
+    "nombre": "Razer DeathStalker V2 Pro Tenkeyless",
+    "image": "https://i.ibb.co/WDG651G/deathstalkerv2keyboard.png",
+    "category": "Keyboards",
+    "description": "Top-tier performance and durability is more compact than ever with the Razer DeathStalker V2 Pro TKL—a wireless ultra-slim tenkeyless optical keyboard. Featuring low-profile switches and Razer™ HyperSpeed Wireless for ultra-responsive gaming, all housed within a compact, yet incredibly durable build.",
+    "details": [
+      "Dimensions",
+      "Height: 2.6cm, Width: 13.9cm, Depth: 35.7cm, Weight: 744g",
+      "Technical Specifications",
+      "Connection Type: Connect via Razer™ HyperSpeed Wireless (2.4 Ghz) - Bluetooth or Type-C, Size: Tenkeyless, Switch: Razer™ Low-Profile Optical Switches (Linear)"
+    ],
+    "inBox": [
+      "Keyboard",
+      "Manual",
+      "Stickers",
+      "USB-C to USB-A dongle extender",
+      "Braided USB-C to USB-A cable"
+    ],
+    "price": 40,
+    "new": false
+  }
+]

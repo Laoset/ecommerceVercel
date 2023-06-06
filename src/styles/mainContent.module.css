@@ -1,0 +1,1118 @@
+/* Segunda section general CSS */
+.containerImagen {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 22rem;
+  height: 11rem;
+  border-radius: 12px;
+  margin: 0;
+}
+.imagen {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  top: -2em;
+  margin-bottom: -2em;
+}
+.butonsito {
+  color: #191919;
+  border: 1px solid #262626;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 10rem;
+}
+.butonsito:hover {
+  color: white;
+  font-size: 13px;
+  background-color: #262626;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.butonsitoGrayBackground {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 2px solid #f3f3f3;
+}
+.butonsitoGrayBackground:hover {
+  color: #262626;
+  background-color: #f1f1f1;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+@media screen and (max-width: 3200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .containerSecond {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+  }
+  /* PRIMER SECTION CSS */
+  .firstSectionContainer {
+    background-image: url(https://i.ibb.co/bWSW9yx/bg-headphones.jpg);
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    display: flex;
+    padding: 0rem;
+  }
+  .textLeftContainer {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 35rem;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-weight: 700;
+  }
+  .textLeftContainer > p {
+    color: gray;
+    font-size: 15px;
+  }
+  .textLeftContainer > h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .textLeftContainer > button {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.5rem;
+    border: 2px solid #f3f3f3;
+    align-self: start;
+  }
+  /* SEGUNDA SECTION CSS */
+  .secondSectionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .threeImagesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  /* TERCERA SECTION CSS */
+  .contenedorDeThird {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .thirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 33rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .imagenThird {
+    width: 50%;
+    height: 70%;
+  }
+  .thirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 30%;
+    width: 50%;
+  }
+  .thirdTextContainer > h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .thirdTextContainer > p {
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin: 0;
+  }
+  .twoThirdSectionContainer {
+    background-image: url(https://i.ibb.co/wdYC5fD/stormprored.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .twoThirdTextContainer {
+    width: 100%;
+    height: auto;
+    padding-top: 0rem;
+  }
+  .twoThirdTextContainer > h2 {
+    font-size: 1.8rem;
+  }
+  .threeThirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeThirdImagenContainer {
+    background-image: url(https://i.ibb.co/74v1Rsz/redFizz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .threeThirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    background-color: #f1f1f1;
+  }
+  .threeThirdTextContainer > h2 {
+    font-size: 1.8rem;
+  }
+
+  /* FOUR SECTION CSS */
+  .contenedorDeFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    width: 100%;
+  }
+  .fourTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .fourImagenContainer {
+    width: auto;
+    height: fit-content;
+  }
+  .fourTextContainer > h2 {
+    font-size: 1.2rem;
+  }
+  .fourTextContainer > p {
+    width: 95%;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 17rem;
+    padding-right: 17rem;
+  }
+  .containerSecond {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+  }
+  /* PRIMER SECTION CSS */
+  .firstSectionContainer {
+    background-image: url(https://i.ibb.co/bWSW9yx/bg-headphones.jpg);
+    background-color: #191919;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32rem;
+    width: 100%;
+    color: white;
+    display: flex;
+  }
+  .textLeftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 60%;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 0.8rem;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 1rem;
+    margin: 0;
+    width: 60%;
+  }
+  .textLeftContainer > button {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.7rem;
+    border: 2px solid #f3f3f3;
+    align-self: start;
+  }
+  /* SEGUNDA SECTION CSS */
+  .secondSectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .threeImagesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .containerImagen > p {
+    font-size: 15px;
+  }
+  /* TERCERA SECTION CSS */
+  .contenedorDeThird {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+  }
+  .thirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .imagenThird {
+    width: 50%;
+    height: 100%;
+  }
+  .thirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+    width: 50%;
+  }
+  .thirdTextContainer > h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .thirdTextContainer > p {
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .twoThirdSectionContainer {
+    background-image: url(https://i.ibb.co/wdYC5fD/stormprored.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .twoThirdTextContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .threeThirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeThirdImagenContainer {
+    background-image: url(https://i.ibb.co/74v1Rsz/redFizz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .threeThirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    background-color: #f1f1f1;
+  }
+
+  /* FOUR SECTION CSS */
+  .contenedorDeFour {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fourTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+  }
+  .fourImagenContainer {
+    width: 50%;
+    height: 100%;
+  }
+  .fourTextContainer > h2 {
+    font-size: 2rem;
+  }
+  .fourTextContainer > p {
+    width: 95%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .containerSecond {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+  }
+  /* PRIMER SECTION CSS */
+  .firstSectionContainer {
+    background-image: url(https://i.ibb.co/bWSW9yx/bg-headphones.jpg);
+    background-color: #191919;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32rem;
+    width: 100%;
+    color: white;
+    display: flex;
+  }
+  .textLeftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 50%;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 0.8rem;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 1rem;
+    margin: 0;
+    width: 60%;
+  }
+  .textLeftContainer > button {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.7rem;
+    border: 2px solid #f3f3f3;
+    align-self: start;
+  }
+  /* SEGUNDA SECTION CSS */
+  .secondSectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .threeImagesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .containerImagen > p {
+    font-size: 15px;
+  }
+  /* TERCERA SECTION CSS */
+  .contenedorDeThird {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .thirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .imagenThird {
+    width: 50%;
+    height: 100%;
+  }
+  .thirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+    width: 50%;
+  }
+  .thirdTextContainer > h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .thirdTextContainer > p {
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .twoThirdSectionContainer {
+    background-image: url(https://i.ibb.co/wdYC5fD/stormprored.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .twoThirdTextContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .threeThirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeThirdImagenContainer {
+    background-image: url(https://i.ibb.co/74v1Rsz/redFizz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .threeThirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    background-color: #f1f1f1;
+  }
+
+  /* FOUR SECTION CSS */
+  .contenedorDeFour {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fourTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+  }
+  .fourImagenContainer {
+    width: 50%;
+    height: 100%;
+  }
+  .fourTextContainer > h2 {
+    font-size: 2rem;
+  }
+  .fourTextContainer > p {
+    width: 95%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .containerSecond {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+  }
+  /* PRIMER SECTION CSS */
+  .firstSectionContainer {
+    background-image: url(https://i.ibb.co/bWSW9yx/bg-headphones.jpg);
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 0rem;
+  }
+  .textLeftContainer {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-weight: 700;
+  }
+  .textLeftContainer > h2 {
+    margin: 0;
+  }
+  .textLeftContainer > button {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.5rem;
+    border: 2px solid #f3f3f3;
+    align-self: start;
+  }
+  /* SEGUNDA SECTION CSS */
+  .secondSectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .threeImagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .containerImagen {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    height: 11rem;
+    border-radius: 12px;
+    margin: 0;
+  }
+  .imagen {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    top: -2em;
+    margin-bottom: -2em;
+  }
+  /* TERCERA SECTION CSS */
+  .contenedorDeThird {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .thirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 37rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .imagenThird {
+    width: 50%;
+    height: 70%;
+  }
+  .thirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 30%;
+    width: 50%;
+  }
+  .thirdTextContainer > h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .thirdTextContainer > p {
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin: 0;
+  }
+  .twoThirdSectionContainer {
+    background-image: url(https://i.ibb.co/wdYC5fD/stormprored.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .twoThirdTextContainer {
+    width: 100%;
+    height: auto;
+    padding-top: 0rem;
+    margin-left: 1rem;
+  }
+  .twoThirdTextContainer > h2 {
+    font-size: 1.8rem;
+  }
+  .threeThirdSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeThirdImagenContainer {
+    background-image: url(https://i.ibb.co/74v1Rsz/redFizz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .threeThirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    background-color: #f1f1f1;
+  }
+  .threeThirdTextContainer > h2 {
+    font-size: 1.8rem;
+  }
+
+  /* FOUR SECTION CSS */
+  .contenedorDeFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    width: 100%;
+  }
+  .fourTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .fourImagenContainer {
+    width: auto;
+    height: fit-content;
+  }
+  .fourTextContainer > h2 {
+    font-size: 1.2rem;
+  }
+  .fourTextContainer > p {
+    width: 95%;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .containerSecond {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+  }
+  /* PRIMER SECTION CSS */
+  .firstSectionContainer {
+    background-image: url(https://i.ibb.co/bWSW9yx/bg-headphones.jpg);
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 0rem;
+  }
+  .textLeftContainer {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 6px;
+    font-weight: 700;
+  }
+  .textLeftContainer > h2 {
+    margin: 0;
+  }
+  .textLeftContainer > button {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.5rem;
+    border: 2px solid #f3f3f3;
+    align-self: start;
+  }
+  /* SEGUNDA SECTION CSS */
+  .secondSectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .threeImagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .containerImagen {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    height: 11rem;
+    border-radius: 12px;
+    margin: 0;
+  }
+  .imagen {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    top: -2em;
+    margin-bottom: -2em;
+  }
+  /* TERCERA SECTION CSS */
+  .contenedorDeThird {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .thirdSectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    height: 37rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .thirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 30%;
+    width: 100%;
+  }
+  .imagenThird {
+    width: 100%;
+    height: 70%;
+  }
+  .thirdTextContainer > h2 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .thirdTextContainer > p {
+    color: #f1f1f1;
+    font-weight: lighter;
+    margin: 0;
+  }
+  .twoThirdSectionContainer {
+    background-image: url(https://i.ibb.co/wdYC5fD/stormprored.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+  }
+  .twoThirdTextContainer {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+  }
+  .twoThirdTextContainer > h2 {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+  .threeThirdSectionContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeThirdImagenContainer {
+    background-image: url(https://i.ibb.co/74v1Rsz/redFizz.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .threeThirdTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    background-color: #f1f1f1;
+  }
+  .threeThirdTextContainer > h2 {
+    font-size: 1.2rem;
+  }
+  .butonsito {
+    color: #191919;
+    border: 1px solid #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    height: 2.5rem;
+    width: 6.8rem;
+  }
+  /* FOUR SECTION CSS */
+  .contenedorDeFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    width: 100%;
+  }
+  .fourTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .fourImagenContainer {
+    width: auto;
+    height: fit-content;
+  }
+  .fourTextContainer > h2 {
+    font-size: 1.2rem;
+  }
+  .fourTextContainer > p {
+    width: 95%;
+    font-size: 14px;
+  }
+}
+.containerImagenDetail {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 12px;
+  margin: 0;
+}
+.containerImagenDetail:hover {
+  cursor: pointer;
+}
+.containerImagenDetail:hover > span {
+  color: #de354c;
+}
+.containerImagenDetail > p {
+  font-weight: 700;
+}
+.containerImagenDetail > span {
+  font-size: 13px;
+}
+.containerImagen:hover {
+  cursor: pointer;
+}
+.containerImagen:hover > span {
+  color: #de354c;
+}
+.containerImagen > p {
+  font-weight: 700;
+}
+.containerImagen > span {
+  font-size: 13px;
+}
+
+.imagenDetail {
+  position: relative;
+  top: -1em;
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: -2em;
+}
+/* THIRRDD */
+
+/* ULTIMA SECTION */
+.imagenLastSection {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.link {
+  color: #f6eee5;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.link:hover {
+  color: #de354c;
+  transition-duration: 500ms;
+}
+.textLeftContainer > button:hover {
+  color: #262626;
+  background-color: #f1f1f1;
+  transition-duration: 500ms;
+  cursor: pointer;
+}

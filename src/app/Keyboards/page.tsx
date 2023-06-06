@@ -1,11 +1,13 @@
 "use client";
-import styles from "./page.module.css";
-import { NavBar, Footer, MainSection } from "../components/layout";
-import { ModalContext } from "./Context";
-import { useContext } from "react";
+import React, { useContext } from "react";
+import { NavBar, Footer } from "../../components/layout";
+import styles from "../page.module.css";
+import Keyboards from "@/components/categoryPages/Keyboards/Keyboards";
+import { ModalContext } from "../Context";
 
-export default function Home() {
+const Page = () => {
   const { isModalOpen, changeOpenModal } = useContext(ModalContext);
+
   return (
     <>
       {isModalOpen ? (
@@ -15,7 +17,7 @@ export default function Home() {
             <hr style={{ border: "1px solid gray", width: "85%" }} />
           </nav>
           <section className={styles.sectionContainer} style={{ opacity: 0.5 }}>
-            <MainSection />
+            <Keyboards />
           </section>
           <footer className={styles.footerContainer} style={{ opacity: 0.5 }}>
             <Footer />
@@ -23,18 +25,20 @@ export default function Home() {
         </>
       ) : (
         <>
-          <nav className={styles.navBarContainer} style={{ opacity: 1 }}>
+          <nav className={styles.navBarContainer}>
             <NavBar />
-            {/* <hr style={{ border: "1px solid gray", width: "85%" }} /> */}
+            <hr style={{ border: "1px solid gray", width: "85%" }} />
           </nav>
           <section className={styles.sectionContainer}>
-            <MainSection />
+            <Keyboards />
           </section>
-          <footer className={styles.footerContainer} style={{ opacity: 1 }}>
+          <footer className={styles.footerContainer}>
             <Footer />
           </footer>
         </>
       )}
     </>
   );
-}
+};
+
+export default Page;

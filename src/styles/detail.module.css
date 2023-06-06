@@ -1,0 +1,598 @@
+@media screen and (max-width: 3600px) {
+  .navBarContainer {
+    background-color: #191919;
+    height: 5rem;
+  }
+  .sectionContainer {
+    height: 100%;
+    width: 100%;
+  }
+  .footerContainer {
+    position: relative;
+    bottom: 0;
+    height: 16rem;
+    background-color: black;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+    width: auto;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 30rem;
+    height: 30rem;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .textRightContainer {
+    text-align: right;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #de354c;
+    width: 35%;
+    height: 2.5rem;
+  }
+  .textRightContainer > button:hover {
+    font-size: 13px;
+    transition-duration: 500ms;
+    border: 2px solid #de354c;
+    cursor: pointer;
+  }
+  .details {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .subtitleP {
+    font-size: 18px;
+  }
+  .textP {
+    font-size: 16px;
+  }
+  .inBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .box > h2 {
+    font-size: 30px;
+  }
+  .elementosbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem;
+  }
+  .elementosbox > li {
+    font-size: 18px;
+    text-decoration: solid;
+  }
+  .elementosbox > li::marker {
+    color: #de354c;
+  }
+  .containerSecond {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .containerSecond > h2 {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .navBarContainer {
+    background-color: #191919;
+    height: 5rem;
+  }
+  .sectionContainer {
+    height: 100%;
+    width: 100%;
+  }
+  .footerContainer {
+    position: relative;
+    bottom: 0;
+    height: 16rem;
+    background-color: black;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+    width: auto;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 30rem;
+    height: 30rem;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .textRightContainer {
+    text-align: right;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #de354c;
+    width: 35%;
+    height: 2.5rem;
+  }
+  .textRightContainer > button:hover {
+    font-size: 13px;
+    transition-duration: 500ms;
+    border: 2px solid #de354c;
+    cursor: pointer;
+  }
+  .details {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .subtitleP {
+    font-size: 18px;
+  }
+  .textP {
+    font-size: 16px;
+  }
+  .inBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .box > h2 {
+    font-size: 30px;
+  }
+  .elementosbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem;
+  }
+  .elementosbox > li {
+    font-size: 18px;
+    text-decoration: solid;
+  }
+  .elementosbox > li::marker {
+    color: #de354c;
+  }
+  .containerSecond {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+  .containerSecond > h2 {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navBarContainer {
+    background-color: #191919;
+    height: 7rem;
+    max-width: 100%;
+    width: 100%;
+  }
+  .sectionContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footerContainer {
+    background-color: #191919;
+    height: 14rem;
+    padding-bottom: 1.5rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: auto;
+    height: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 100%;
+  }
+  .imagen {
+    width: 100%;
+    height: 13rem;
+  }
+  .textRightContainer {
+    text-align: right;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 65%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #de354c;
+    width: 50%;
+    height: 2.5rem;
+  }
+  .textRightContainer > button:hover {
+    font-size: 13px;
+    transition-duration: 500ms;
+    border: 2px solid #de354c;
+    cursor: pointer;
+  }
+  .details {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .details > h2 {
+    font-size: 1.8rem;
+  }
+  .subtitleP {
+    font-size: 16px;
+  }
+  .textP {
+    font-size: 15px;
+  }
+  .inBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .box > h2 {
+  }
+  .elementosbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem;
+  }
+  .elementosbox > li {
+    font-size: 18px;
+    text-decoration: solid;
+  }
+  .elementosbox > li::marker {
+    color: #de354c;
+  }
+  .containerSecond {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .containerSecond > h2 {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 720px) {
+  .navBarContainer {
+    background-color: #191919;
+    height: 10rem;
+    max-width: 100%;
+    width: 100%;
+  }
+  .sectionContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footerContainer {
+    background-color: #191919;
+    height: 14rem;
+    padding-bottom: 1.5rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: auto;
+    height: 20rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 50%;
+    height: 100%;
+  }
+  .imagen {
+    width: 100%;
+    height: 13rem;
+  }
+  .textRightContainer {
+    text-align: right;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 90%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #de354c;
+    width: 50%;
+    height: 2.5rem;
+  }
+  .textRightContainer > button:hover {
+    font-size: 13px;
+    transition-duration: 500ms;
+    border: 2px solid #de354c;
+    cursor: pointer;
+  }
+  .details {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .details > h2 {
+    font-size: 1.5rem;
+  }
+  .subtitleP {
+    font-size: 15px;
+  }
+  .textP {
+    font-size: 14px;
+  }
+  .inBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .box > h2 {
+  }
+  .elementosbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem;
+  }
+  .elementosbox > li {
+    font-size: 18px;
+    text-decoration: solid;
+  }
+  .elementosbox > li::marker {
+    color: #de354c;
+  }
+  .containerSecond {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .containerSecond > h2 {
+    align-self: center;
+  }
+}

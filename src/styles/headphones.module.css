@@ -1,0 +1,560 @@
+@media screen and (max-width: 3200px) {
+  .containerAllSections {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .containerFirst > h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+  }
+  .containerSecond {
+    padding-top: 2rem;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    height: 18rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 25%;
+    height: 18rem;
+    background-color: #f1f1f1;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .imagenKeyboard {
+    width: 100%;
+    height: 50%;
+  }
+  .textLeftContainer {
+    text-align: left;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .textLeftContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textLeftContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 25%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+  .textLeftContainer > button:hover {
+    font-size: 13px;
+    background-color: #de354c;
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+  /* sdasd */
+  .textRightContainer {
+    text-align: right;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 25%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .containerAllSections {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .containerFirst > h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+  }
+  .containerSecond {
+    padding-top: 2rem;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: 18rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 18rem;
+    background-color: #f1f1f1;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .textLeftContainer {
+    text-align: left;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .textLeftContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textLeftContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+  .textLeftContainer > button:hover {
+    font-size: 13px;
+    background-color: #de354c;
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+  /* sdasd */
+  .textRightContainer {
+    text-align: right;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 35%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .containerAllSections {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .containerFirst > h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+  }
+  .containerSecond {
+    padding-top: 2rem;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: 18rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 40%;
+    height: 18rem;
+    background-color: #f1f1f1;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .imagenKeyboard {
+    width: 100%;
+    height: 50%;
+  }
+  .textLeftContainer {
+    text-align: left;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .textLeftContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textLeftContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+  .textLeftContainer > button:hover {
+    font-size: 13px;
+    background-color: #de354c;
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+  /* sdasd */
+  .textRightContainer {
+    text-align: right;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+}
+@media screen and (max-width: 720px) {
+  .containerAllSections {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .containerFirst {
+    background-color: #191919;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .containerFirst > h2 {
+    color: #f3f3f3;
+    font-size: 2rem;
+  }
+  .containerSecond {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .containerHijo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: 18rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 40%;
+    height: 18rem;
+    background-color: #f1f1f1;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .imagenKeyboard {
+    width: 100%;
+    height: 50%;
+  }
+  .textLeftContainer {
+    text-align: left;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .textLeftContainer > h2 {
+    color: #262626;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .textLeftContainer > span {
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textLeftContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textLeftContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+  .textLeftContainer > button:hover {
+    font-size: 13px;
+    background-color: #de354c;
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+  /* sdasd */
+  .textRightContainer {
+    text-align: right;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .textRightContainer > h2 {
+    color: #262626;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .textRightContainer > span {
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+  .textRightContainer > p {
+    color: grey;
+    font-size: 15px;
+    width: 79%;
+  }
+  .textRightContainer > button {
+    color: #262626;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: transparent;
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid #de354c;
+  }
+}
+.textRightContainer > button:hover {
+  background-color: #de354c;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.textRightContainerLink {
+  color: #262626;
+  text-decoration: none;
+}
+.textLeftContainerLink {
+  color: #262626;
+  text-decoration: none;
+}
