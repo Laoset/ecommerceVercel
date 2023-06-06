@@ -1,3 +1,4 @@
+"use client";
 import React, { useContext } from "react";
 import styles from "../../styles/mainContent.module.css";
 import { ModalContext } from "@/app/Context";
