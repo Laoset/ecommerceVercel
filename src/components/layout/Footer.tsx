@@ -29,10 +29,9 @@ export const Footer = () => {
           </div>
         </div>
         <p>
-          Periféricool is an all in one stop to fulfill your audio needs. Were a
-          small team of music lovers and sound specialists who are devoted to
-          helping you get the most out of personal audio. Come and visit our
-          demo facility - we’re open 7 days a week.
+          We are a small team of technology enthusiasts and hardware specialists
+          who are committed to helping you get the most out of your computing
+          experience.
         </p>
         <div className={styles.iconContainer}>
           <a href="https://www.facebook.com/" target="_blank">

@@ -218,28 +218,29 @@
   /* FOUR SECTION CSS */
   .contenedorDeFour {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    height: 35rem;
-    width: 100%;
+    height: auto;
+    padding-left: 23rem;
+    padding-right: 23rem;
   }
   .fourTextContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    width: 100%;
+    text-align: start;
+    width: 50%;
   }
   .fourImagenContainer {
-    width: auto;
+    width: 50%;
     height: fit-content;
   }
   .fourTextContainer > h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .fourTextContainer > p {
     width: 95%;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1650px) {
