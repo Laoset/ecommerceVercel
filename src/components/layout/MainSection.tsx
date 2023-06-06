@@ -11,11 +11,11 @@ export const MainSection = () => {
     <>
       <div className={styles.container}>
         <div className={styles.containerFirst}>
-          <FirstSectionMain />
+          {/* <FirstSectionMain /> */}
         </div>
         <div className={styles.containerSecond}>
-          <SecondSectionMain />
-          <ThirdSectionMain />
+          {/* <SecondSectionMain /> */}
+          {/* <ThirdSectionMain /> */}
           {/*<FourSectionMain /> */}
         </div>
       </div>
