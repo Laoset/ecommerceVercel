@@ -74,7 +74,7 @@ export default function Page({ params }: { params: { id: string } }) {
                   <div className={styles.box}>
                     <h2>In The Box</h2>
                     <div className={styles.elementosbox}>
-                      {product.inBox.map((boxito, index) => (
+                      {product?.inBox.map((boxito, index) => (
                         <>
                           <li key={index}>{boxito}</li>
                         </>
@@ -134,7 +134,7 @@ export default function Page({ params }: { params: { id: string } }) {
                   <div className={styles.box}>
                     <h2>In The Box</h2>
                     <div className={styles.elementosbox}>
-                      {product.inBox.map((boxito, index) => (
+                      {product?.inBox.map((boxito, index) => (
                         <div key={`12312${index}`}>
                           <li>{boxito}</li>
                         </div>

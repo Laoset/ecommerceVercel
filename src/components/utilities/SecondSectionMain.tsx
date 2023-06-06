@@ -10,7 +10,7 @@ export const SecondSectionMain = () => {
     <>
       <div className={styles.secondSectionContainer}>
         <div className={styles.threeImagesContainer}>
-          {threeProducts.map((productos, index) => {
+          {threeProducts?.map((productos, index) => {
             return (
               <Link
                 href={`/${productos.category}`}

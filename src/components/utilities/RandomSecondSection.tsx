@@ -9,7 +9,7 @@ export const RandomSecondSection = () => {
   return (
     <div className={styles.secondSectionContainer}>
       <div className={styles.threeImagesContainer}>
-        {randomThreeProducts.map((productos) => {
+        {randomThreeProducts?.map((productos) => {
           return (
             <Link
               href={`/${productos.category}`}

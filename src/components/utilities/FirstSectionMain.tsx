@@ -8,7 +8,7 @@ export const FirstSectionMain = () => {
 
   return (
     <div className={styles.firstSectionContainer}>
-      {allProducts.map((producto) =>
+      {allProducts?.map((producto) =>
         producto.new ? (
           <div className={styles.textLeftContainer} key={producto.id}>
             <span>NEW PRODUCT</span>

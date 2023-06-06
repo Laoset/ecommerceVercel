@@ -13,7 +13,7 @@ const Mouse = () => {
         <h2>MOUSE</h2>
       </div>
       <div className={styles.containerSecond}>
-        {mouse.map((producto, index) => (
+        {mouse?.map((producto, index) => (
           <div className={styles.containerHijo} key={producto.id}>
             {index % 2 === 0 ? (
               <>

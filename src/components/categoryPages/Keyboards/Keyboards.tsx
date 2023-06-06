@@ -13,7 +13,7 @@ const Keyboards = () => {
         <h2>KEYBOARDS</h2>
       </div>
       <div className={styles.containerSecond}>
-        {keyboards.map((producto, index) => (
+        {keyboards?.map((producto, index) => (
           <div className={styles.containerHijo} key={producto.id}>
             {index % 2 === 0 ? (
               <>
