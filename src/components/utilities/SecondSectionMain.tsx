@@ -10,31 +10,33 @@ export const SecondSectionMain = () => {
     <>
       <div className={styles.secondSectionContainer}>
         <div className={styles.threeImagesContainer}>
-          {threeProducts?.map((productos, index) => {
-            return (
-              <Link
-                href={`/${productos.category}`}
-                prefetch={false}
-                key={index}
-                style={{ textDecoration: "none", color: "black" }}
-                className={styles.linkContainer}
-                as={`/${productos.category}`}
-              >
-                <div className={styles.containerImagen}>
-                  <img
-                    src={productos.image}
-                    alt="landing"
-                    className={styles.imagen}
-                  />
+          {threeProducts
+            ? threeProducts?.map((productos, index) => {
+                return (
+                  <Link
+                    href={`/${productos.category}`}
+                    prefetch={false}
+                    key={index}
+                    style={{ textDecoration: "none", color: "black" }}
+                    className={styles.linkContainer}
+                    as={`/${productos.category}`}
+                  >
+                    <div className={styles.containerImagen}>
+                      <img
+                        src={productos.image}
+                        alt="landing"
+                        className={styles.imagen}
+                      />
 
-                  <p style={{ textTransform: "uppercase" }}>
-                    {productos.category}
-                  </p>
-                  <span>SHOP</span>
-                </div>
-              </Link>
-            );
-          })}
+                      <p style={{ textTransform: "uppercase" }}>
+                        {productos.category}
+                      </p>
+                      <span>SHOP</span>
+                    </div>
+                  </Link>
+                );
+              })
+            : null}
         </div>
       </div>
     </>
