@@ -101,55 +101,61 @@ export default function Page({ params }: { params: { id: string } }) {
             <NavBar />
           </nav>
           <section className={styles.sectionContainer}>
-            {product && (
-              <div key={`4${product.id}`}>
-                <div className={styles.containerHijo}>
-                  <div className={styles.card}>
-                    <Image
-                      src={product.image}
-                      alt="fh"
-                      width={1000}
-                      height={1000}
-                      quality={100}
-                      className={styles.imagen}
-                    />
+            {product ? (
+              <>
+                <div key={`4${product.id}`}>
+                  <div className={styles.containerHijo}>
+                    <div className={styles.card}>
+                      <Image
+                        src={product.image}
+                        alt="fh"
+                        width={1000}
+                        height={1000}
+                        quality={100}
+                        className={styles.imagen}
+                      />
+                    </div>
+                    <div className={styles.textRightContainer}>
+                      <h2>{product.nombre}</h2>
+                      <p>{product.description}</p>
+                      <button onClick={() => addToCart(product)}>
+                        ADD TO CART
+                      </button>
+                    </div>
                   </div>
-                  <div className={styles.textRightContainer}>
-                    <h2>{product.nombre}</h2>
-                    <p>{product.description}</p>
-                    <button onClick={() => addToCart(product)}>
-                      ADD TO CART
-                    </button>
+                  <div className={styles.details}>
+                    <h2>DETAILS</h2>
+                    <p className={styles.subtitleP}>{product.details[0]}</p>
+                    <p className={styles.textP}>{product.details[1]}</p>
+                    <p className={styles.subtitleP}>{product.details[2]}</p>
+                    <p className={styles.textP}>{product.details[3]}</p>
                   </div>
-                </div>
-                <div className={styles.details}>
-                  <h2>DETAILS</h2>
-                  <p className={styles.subtitleP}>{product.details[0]}</p>
-                  <p className={styles.textP}>{product.details[1]}</p>
-                  <p className={styles.subtitleP}>{product.details[2]}</p>
-                  <p className={styles.textP}>{product.details[3]}</p>
-                </div>
-                <div className={styles.inBox}>
-                  <BsFillBoxFill size={40} />
-                  <div className={styles.box}>
-                    <h2>In The Box</h2>
-                    <div className={styles.elementosbox}>
-                      {product?.inBox.map((boxito, index) => (
-                        <div key={`12312${index}`}>
-                          <li>{boxito}</li>
-                        </div>
-                      ))}
+                  <div className={styles.inBox}>
+                    <BsFillBoxFill size={40} />
+                    <div className={styles.box}>
+                      <h2>In The Box</h2>
+                      <div className={styles.elementosbox}>
+                        {product?.inBox.map((boxito, index) => (
+                          <div key={`12312${index}`}>
+                            <li>{boxito}</li>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+                <div className={styles.containerSecond}>
+                  <h2>This might interest you</h2>
+                  <div>
+                    <RandomSecondSection />
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <h1>Cargando producto..espere porfavor</h1>
+              </>
             )}
-            {/* <div className={styles.containerSecond}>
-              <h2>This might interest you</h2>
-              <div>
-                <RandomSecondSection />
-              </div>
-            </div> */}
           </section>
           <footer className={styles.footerContainer}>
             <Footer />

@@ -113,6 +113,7 @@
     height: 2.5rem;
     border: 2px solid #f3f3f3;
     align-self: start;
+    color: white;
   }
   /* SEGUNDA SECTION CSS */
   .secondSectionContainer {
@@ -147,7 +148,7 @@
     border-radius: 10px;
   }
   .imagenThird {
-    width: 50%;
+    width: 45%;
     height: 70%;
   }
   .thirdTextContainer {
@@ -305,6 +306,7 @@
     height: 2.7rem;
     border: 2px solid #f3f3f3;
     align-self: start;
+    color: white;
   }
   /* SEGUNDA SECTION CSS */
   .secondSectionContainer {
@@ -499,6 +501,7 @@
     height: 2.7rem;
     border: 2px solid #f3f3f3;
     align-self: start;
+    color: white;
   }
   /* SEGUNDA SECTION CSS */
   .secondSectionContainer {
@@ -689,6 +692,7 @@
     height: 2.5rem;
     border: 2px solid #f3f3f3;
     align-self: start;
+    color: white;
   }
   /* SEGUNDA SECTION CSS */
   .secondSectionContainer {
@@ -895,6 +899,7 @@
     height: 2.5rem;
     border: 2px solid #f3f3f3;
     align-self: start;
+    color: white;
   }
   /* SEGUNDA SECTION CSS */
   .secondSectionContainer {

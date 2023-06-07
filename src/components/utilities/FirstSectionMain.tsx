@@ -19,11 +19,10 @@ export const FirstSectionMain = () => {
             <button>
               <Link
                 href={`/detail/${producto.id}`}
-                style={{ textDecoration: "none", color: "#f3f3f3" }}
+                style={{ textDecoration: "none" }}
                 as={`/detail/${producto.id}`}
-              >
-                SEE PRODUCT
-              </Link>
+              ></Link>
+              SEE PRODUCT
             </button>
           </div>
         ) : null
