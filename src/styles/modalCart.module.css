@@ -35,19 +35,25 @@
   flex-direction: column;
   margin-bottom: 1rem;
 }
-.footer > button {
-  color: #262626;
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: bold;
+.butonsito {
   background-color: #de354c;
   width: 90%;
   height: 3rem;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer > button:hover {
-  font-size: 13px;
-  transition-duration: 500ms;
+.spansitop {
+  color: #262626;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  align-content: center;
+}
+
+.butonsito:hover {
+  transition-duration: 1000ms;
   border: 2px solid #de354c;
   cursor: pointer;
 }

@@ -42,15 +42,13 @@ const ModalCart = () => {
           <p>Total Product:</p>
           <p>${miDineroTotal}</p>
         </div>
-
-        <button>
-          <Link
-            href={"/checkout"}
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            Pay
-          </Link>
-        </button>
+        <Link
+          href={"/checkout"}
+          className={styles.butonsito}
+          style={{ textDecoration: "none" }}
+        >
+          <span className={styles.spansitop}>Pay</span>
+        </Link>
       </div>
     </motion.div>
   );

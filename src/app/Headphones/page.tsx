@@ -23,7 +23,7 @@ const Page = () => {
           </section>
           <footer
             className={styles.footerContainer}
-            style={{ opacity: 0.5, backgroundColor: "#00000080" }}
+            style={{ opacity: 0.5, backgroundColor: "#00000080", zIndex: "0" }}
           >
             <Footer />
           </footer>

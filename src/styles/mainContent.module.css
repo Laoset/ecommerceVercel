@@ -104,12 +104,12 @@
     font-size: 2rem;
     margin: 0;
   }
-  .textLeftContainer > button {
+  .botonx {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
     background-color: transparent;
-    width: 35%;
+    width: 100%;
     height: 2.5rem;
     border: 2px solid #f3f3f3;
     align-self: start;
@@ -242,6 +242,18 @@
   .fourTextContainer > p {
     width: 95%;
     font-size: 16px;
+  }
+  .containerImagenDetail {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 12px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1650px) {
@@ -417,6 +429,7 @@
     height: 30rem;
     width: 100%;
     justify-content: space-between;
+    padding: 0;
   }
   .fourTextContainer {
     display: flex;
@@ -435,6 +448,18 @@
   .fourTextContainer > p {
     width: 95%;
     font-size: 15px;
+  }
+  .containerImagenDetail {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 12px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -612,6 +637,7 @@
     height: 30rem;
     width: 100%;
     justify-content: space-between;
+    padding: 0;
   }
   .fourTextContainer {
     display: flex;
@@ -631,8 +657,19 @@
     width: 95%;
     font-size: 15px;
   }
+  .containerImagenDetail {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20rem;
+    height: 14rem;
+    border-radius: 12px;
+    margin: 0;
+  }
 }
-
 @media screen and (max-width: 1200px) {
   .container {
     display: flex;
@@ -820,6 +857,7 @@
     justify-content: space-between;
     height: 35rem;
     width: 100%;
+    padding: 0;
   }
   .fourTextContainer {
     display: flex;
@@ -838,6 +876,18 @@
   .fourTextContainer > p {
     width: 95%;
     font-size: 14px;
+  }
+  .containerImagenDetail {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 15rem;
+    height: 14rem;
+    border-radius: 12px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 720px) {
@@ -1033,6 +1083,7 @@
     justify-content: space-between;
     height: 35rem;
     width: 100%;
+    padding: 0;
   }
   .fourTextContainer {
     display: flex;
@@ -1052,19 +1103,20 @@
     width: 95%;
     font-size: 14px;
   }
+  .containerImagenDetail {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 15rem;
+    height: 14rem;
+    border-radius: 12px;
+    margin: 0;
+  }
 }
-.containerImagenDetail {
-  background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  width: 22rem;
-  height: 14rem;
-  border-radius: 12px;
-  margin: 0;
-}
+
 .containerImagenDetail:hover {
   cursor: pointer;
 }
@@ -1116,7 +1168,7 @@
   color: #de354c;
   transition-duration: 500ms;
 }
-.textLeftContainer > button:hover {
+.botonx:hover {
   color: #262626;
   background-color: #f1f1f1;
   transition-duration: 500ms;

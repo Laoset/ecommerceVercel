@@ -15,15 +15,13 @@ export const FirstSectionMain = () => {
             <span>NEW PRODUCT</span>
             <h2>{producto.nombre}</h2>
             <p>{producto.description}</p>
-
-            <button>
-              <Link
-                href={`/detail/${producto.id}`}
-                style={{ textDecoration: "none" }}
-                as={`/detail/${producto.id}`}
-              ></Link>
-              SEE PRODUCT
-            </button>
+            <Link
+              href={`/detail/${producto.id}`}
+              style={{ textDecoration: "none" }}
+              as={`/detail/${producto.id}`}
+            >
+              <button className={styles.botonx}>SEE PRODUCT</button>
+            </Link>
           </div>
         ) : null
       )}
